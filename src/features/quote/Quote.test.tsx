@@ -13,9 +13,7 @@ describe('cita tests unitarios', () => {
     });
     afterAll(() => server.close());
 
-    // por alguna razon esto no funciona, y cuando activo este test, uno de los test de integración se rompe
-    // no tengo idea por qué, al apretar el boton con el input vacío dice que "Por favor ingrese un valor válido"
-    // lo cual no tiene ningún sentido, ya que debería traer una quote aleatoria de la api de todos modos
+   
     test.skip('que llame a la api al apretar el boton', async () => {
         render(
             <Provider store={store}>
