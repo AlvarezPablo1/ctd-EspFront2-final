@@ -1,0 +1,1 @@
+el principio SOLID que implemente en las FEATURES de QUEOTE fue la de RESPONSABILIDAD UNICA, separando los codigos en Quote_handlers.ts, Quote.server.ts y Quote.test.ts
